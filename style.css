@@ -13,115 +13,56 @@
 
 .flex-container-h {
     display: flex;
-    padding: 1rem;
-    justify-content:center ;
+    padding: 0.5rem;
+    justify-content: space-around;
 }
 
+.d-flex{
+    display: flex;
+}
 
-/*debug*/
-
-.debug .container{
-    background-color: red;
-}
-.debug .logo {
-    border: 5px dotted rgb(50, 73, 205);
-    width: 20%;
-    background-color: rgb(247, 172, 34);
-}
-.debug .link{
-    border: 5px dotted palevioletred;
-    width: 40%;
-    background-color: rgb(247, 172, 34);
-
-}
-.debug .login{
-    border: 5px dotted brown;
-    width: 20%;
-    background-color: rgb(247, 172, 34);
-}
-.debug {
-    background-color: palegreen;
-}
-.debug .jumbotron{
-    background-color: rgb(246, 60, 91);
-    height: 15rem;
-    border: dotted;
-}
-.debug .row1{
-    background-color: violet;
-    height: 15rem;
-    border: dotted;
-}
-.debug .row2{
-    background-color:#ededed;
-    height: 15rem;
-    border: dotted;
-}
-.debug .col-4 {
-    border: dotted;
-    background-color: blue;
-}
-.debug .col-12 {
-    border: dotted;
-    background-color: brown;
-}
-.debug .flex-container:nth-child(2){
-    background-color: orange;
-}
-.debug .flex-container:nth-child(4){
-    background-color: orange;
-}
-.debug .last{
-    
-    background-color: rgb(68, 128, 48);
-    height: 20rem;
-    border: dotted;
-}
-.debug .top-footer{
-    height: 15rem;
-    border: dotted;
-    flex-direction: row;
-}
-.debug .colonna-g{
-    border: dotted;
-    background-color: blue;
-}
-.debug .colonna-p {
-    border: dotted;
-    background-color: brown;
-}
-.debug .site_footer{
-    background-color: #ededed;
-}
-.debug .logo-f {
-    border: 5px dotted rgb(50, 73, 205);
-    width: 10%;
-    background-color: rgb(247, 172, 34);
-}
-.debug .bottone {
-    border: 5px dotted rgb(50, 73, 205);
-    width: 10%;
-    background-color: rgb(247, 172, 34);
-}
-.debug .bottom-footer{
-    background-color: black;
-
+button{
+    border: none;
 }
 /*utilities*/
 
+:root{
+    --primary-blue:var(#3161E0);
+    --secondary-blue:var(#8EA1E1);
+    --primary-white:var(#FFFFFF);
+    --primary-grey:var(#F6F6F6);
+    --primary-black:var(#23272A);
+
+}
 /*HEADER*/
 
 .logo {
-    width: 20%;
+    size: 50px;
+    padding-right: 0.75rem;
+}
+header{
+    background-color: #3161E0;
 }
 
-.link{
-    width: 40%;
+
+li{
+    text-decoration: none;
+    list-style: none;
+    color:#FFFFFF;
+    flex-direction: column;
+    text-wrap: wrap;
+    padding: 1rem;
 
 }
 
- .login{
-    width: 20%;
+.btn-login{
+    padding: 7px;
+    margin-top: 10px;
+    color:#23272A;
+    background-color:#FFFFFF;
+    border-radius: 29%;
+    height: fit-content;
+    width: fit-content;
 }
 
 .flex-container>span{
@@ -208,3 +149,71 @@ div.flex-container{
 
 
 
+/*debug*/
+
+
+.debug .jumbotron{
+    background-color: rgb(246, 60, 91);
+    height: 15rem;
+    border: dotted;
+}
+.debug .row1{
+    background-color: violet;
+    height: 15rem;
+    border: dotted;
+}
+.debug .row2{
+    background-color:#ededed;
+    height: 15rem;
+    border: dotted;
+}
+.debug .col-4 {
+    border: dotted;
+    background-color: blue;
+}
+.debug .col-12 {
+    border: dotted;
+    background-color: brown;
+}
+.debug .flex-container:nth-child(2){
+    background-color: orange;
+}
+.debug .flex-container:nth-child(4){
+    background-color: orange;
+}
+.debug .last{
+    
+    background-color: rgb(68, 128, 48);
+    height: 20rem;
+    border: dotted;
+}
+.debug .top-footer{
+    height: 15rem;
+    border: dotted;
+    flex-direction: row;
+}
+.debug .colonna-g{
+    border: dotted;
+    background-color: blue;
+}
+.debug .colonna-p {
+    border: dotted;
+    background-color: brown;
+}
+.debug .site_footer{
+    background-color: #ededed;
+}
+.debug .logo-f {
+    border: 5px dotted rgb(50, 73, 205);
+    width: 10%;
+    background-color: rgb(247, 172, 34);
+}
+.debug .bottone {
+    border: 5px dotted rgb(50, 73, 205);
+    width: 10%;
+    background-color: rgb(247, 172, 34);
+}
+.debug .bottom-footer{
+    background-color: black;
+
+}
