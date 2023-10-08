@@ -79,7 +79,7 @@ li{
     margin-top: 10px;
     color:#23272A;
     background-color:#FFFFFF;
-    border-radius: 29%;
+    border-radius: 40px;
     height: fit-content;
     width: fit-content;
 }
@@ -116,6 +116,21 @@ li{
 .jumbotron p{
     line-height: 1.5rem;
     margin-bottom: 2rem;
+}
+
+.jumbotron button{
+    padding: 16px;
+    margin-top: 10px;
+    color:#23272A;
+    background-color:#FFFFFF;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #23272A;
+}
+
+.flex-container button:last-child{
+    background-color: #23272A;
+    color:#FFFFFF;
 }
 /* FIRST CONTAINER*/
 
