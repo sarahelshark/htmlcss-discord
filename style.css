@@ -29,6 +29,10 @@ button{
     padding: 1rem;
 }
 
+h2{
+    margin-bottom: 2rem;
+}
+
 
 
 
@@ -136,8 +140,9 @@ li{
 
 .row1{
     display: flex;
-    width: 60%;
     flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 17rem;
 }
 
 
@@ -145,8 +150,10 @@ li{
 
 .row2{
     display: flex;
-    width: 60%;
-    flex-direction:row
+    flex-direction:row;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding: 0 17rem;
 }
 
 .col-4{
