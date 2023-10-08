@@ -24,16 +24,35 @@
 button{
     border: none;
 }
+
+.p-1{
+    padding: 1rem;
+}
+
+
+
+
 /*utilities*/
 
 :root{
-    --primary-blue:var(#3161E0);
+    --primary-blue:var(#255EE9);
     --secondary-blue:var(#8EA1E1);
     --primary-white:var(#FFFFFF);
     --primary-grey:var(#F6F6F6);
     --primary-black:var(#23272A);
 
 }
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+.w-900{
+font-weight: 900;
+}
+.w-500{
+    font-weight: 500;
+    }
 /*HEADER*/
 
 .logo {
@@ -41,7 +60,7 @@ button{
     padding-right: 0.75rem;
 }
 header{
-    background-color: #3161E0;
+    background-color: #255EE9;
 }
 
 
@@ -69,15 +88,35 @@ li{
     text-align: center;
 }
 
+.align-items-center{
+    align-items: center;
+}
 /*JUMBOTRON*/
 
 .jumbotron{
-    display: flex;
-    width: 60%;
-    align-items: center;
-    justify-content: center;
+    height: 422px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
 }
 
+.jumbotron .flex-container {
+    padding: 2.75rem 12rem;
+    margin: 0 14.75rem;
+    color: #FFFFFF;
+}
+
+.jumbotron h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.jumbotron p{
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
 /* FIRST CONTAINER*/
 
 .row1{
