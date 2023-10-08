@@ -21,6 +21,8 @@
     display: flex;
 }
 
+
+
 button{
     border: none;
 }
@@ -29,8 +31,9 @@ button{
     padding: 1rem;
 }
 
-h2{
+h3{
     margin-bottom: 2rem;
+    font-size: 32px;
 }
 
 
@@ -168,10 +171,33 @@ li{
 
 .last{
     display: flex;
-    width: 60%;
     align-items: center;
     justify-content: center;
+    padding: 4rem 17rem;
 }
+
+.flex-container .last{
+    background-color: #F6F6F6;
+}
+
+
+h4{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+#l-button{
+    background-color: #8EA1E1;
+    border-radius: 40px;
+    padding: 1rem;
+    margin-top: 1.75rem
+}
+
+.column{
+    flex-direction: column;
+    }
+
 
 /*FOOTER*/
 
@@ -205,8 +231,6 @@ div.flex-container{
     justify-content: space-around;
 }
     
-
-
 
 
 
