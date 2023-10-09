@@ -21,8 +21,6 @@
     display: flex;
 }
 
-
-
 button{
     border: none;
 }
@@ -91,9 +89,6 @@ li{
     width: fit-content;
 }
 
-.flex-container>span{
-    text-align: center;
-}
 
 .align-items-center{
     align-items: center;
@@ -145,9 +140,11 @@ li{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 0 17rem;
 }
 
+div.row1{
+    width: 80%;
+}
 
 /*SECOND CONTAINER*/
 
@@ -155,16 +152,17 @@ li{
     display: flex;
     flex-direction:row;
     align-items: center;
+}
+
+.flex-container .row2{
     background-color: #F6F6F6;
-    padding: 0 17rem;
 }
 
-.col-4{
-    width: calc((100% / 12) * 4 ) ;
 
-}
-.col-12{
+
+div.row2{
     width: 100%;
+    padding: 4rem 17rem;
 }
 
 /*THIRD CONTAINER*/
@@ -173,7 +171,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4rem 17rem;
+    padding: 4rem 13rem;
 }
 
 .flex-container .last{
