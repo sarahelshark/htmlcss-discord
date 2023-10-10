@@ -1,9 +1,30 @@
-/*common*/
+/* #region common*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --primary-blue:var(#255EE9);
+    --secondary-blue:var(#8EA1E1);
+    --primary-white:var(#FFFFFF);
+    --primary-grey:var(#F6F6F6);
+    --primary-black:var(#23272A);
+
+}
+/* #endregion common*/
+
+
+/*la prossima volta imposto prima questa regola 
+
+.site_main/.container {
+    width: 80%;
+    max-width: 1152px;
+    margin: auto;
+}
+per centrare tutto, in questo esercizio ho un esempio di centratura applicata "di container in container". Come mi trovo? per ora rallentata, vediamo se invece nel prossimo esercizio cambia qualcosa impostando la regola di centratura per prima e sviluppando il resto di conseguenza*/
+
 
 .flex-container {
     display: flex;
@@ -39,14 +60,7 @@ h3{
 
 /*utilities*/
 
-:root{
-    --primary-blue:var(#255EE9);
-    --secondary-blue:var(#8EA1E1);
-    --primary-white:var(#FFFFFF);
-    --primary-grey:var(#F6F6F6);
-    --primary-black:var(#23272A);
 
-}
 
 body{
     font-family:'Roboto', sans-serif;
@@ -60,13 +74,21 @@ font-weight: 900;
     }
 /*HEADER*/
 
+#site_header{
+    width: 100%;
+    position: fixed;
+}
+
+/*con position fixed ho creato sovrapposizione tra jumbotron ed header, quindi posso levare il bg color che avevo dato ad header per compensare la mancanza*/
 .logo {
     size: 50px;
     padding-right: 0.75rem;
 }
+
+/*
 header{
     background-color: #255EE9;
-}
+}*      con position fixed non serve più*/
 
 
 li{
@@ -93,6 +115,19 @@ li{
 .align-items-center{
     align-items: center;
 }
+
+.wave{
+    color: #F6F6F6;
+    margin-bottom: -30px;
+}
+
+.wave-white{
+    color: #F6F6F6;
+    transform: rotate(180deg);
+    margin-top:-30px;
+}
+
+/* il margin bottom negativo lo dò per fixare la linea bianca che resta tra svg, che si comporta come immagine e quindi blocco, e l'altro div successivo*/
 /*JUMBOTRON*/
 
 .jumbotron{
@@ -102,6 +137,7 @@ li{
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
+    background-color:#255EE9;
 }
 
 .jumbotron .flex-container {
@@ -146,6 +182,7 @@ div.row1{
     width: 80%;
 }
 
+
 /*SECOND CONTAINER*/
 
 .row2{
@@ -157,8 +194,6 @@ div.row1{
 .flex-container .row2{
     background-color: #F6F6F6;
 }
-
-
 
 div.row2{
     width: 100%;
