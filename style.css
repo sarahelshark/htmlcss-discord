@@ -76,7 +76,9 @@ font-weight: 900;
 
 #site_header{
     width: 100%;
+    height: min-content;
     position: fixed;
+
 }
 
 /*con position fixed ho creato sovrapposizione tra jumbotron ed header, quindi posso levare il bg color che avevo dato ad header per compensare la mancanza*/
@@ -84,7 +86,10 @@ font-weight: 900;
     size: 50px;
     padding-right: 0.75rem;
 }
+#site_main{
 
+    padding-top: 50px;
+}
 /*
 header{
     background-color: #255EE9;
@@ -131,7 +136,7 @@ li{
 /*JUMBOTRON*/
 
 .jumbotron{
-    height: 422px;
+    height: 452px;
     background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
