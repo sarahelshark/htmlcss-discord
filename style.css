@@ -28,8 +28,8 @@ per centrare tutto, in questo esercizio ho un esempio di centratura applicata "d
 
 .flex-container {
     display: flex;
-    padding: 1rem;
     justify-content:center ;
+    margin: auto;
 }
 
 .flex-container-h {
@@ -78,6 +78,8 @@ font-weight: 900;
     width: 100%;
     height: min-content;
     position: fixed;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
@@ -136,7 +138,7 @@ li{
 /*JUMBOTRON*/
 
 .jumbotron{
-    height: 452px;
+    height: 450px;
     background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,6 +218,7 @@ div.row2{
 
 .flex-container .last{
     background-color: #F6F6F6;
+    width: 100%;
 }
 
 
@@ -238,11 +241,15 @@ h4{
 
 
 /*FOOTER*/
-
 .top-footer{
     display: flex;
-    width: 60%;
-    flex-direction: row-reverse;
+    width: 80%;
+    justify-content: center;
+}
+
+footer{
+    background-color: #23272A;
+    padding-top: 1.75rem;
 }
 
 .colonna-g{
@@ -253,7 +260,31 @@ h4{
     width:  calc((100% / 12) * 4 );
 }
 
+[class^="col"] p{
+    color: #8EA1E1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+[class^="col"] li{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;    
+}
 
+[class^="col"] div{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;  
+    margin-bottom: 5px;  
+}
+.colonna-g h2{
+    font-size: 30px;
+    color: #8EA1E1;
+    margin-bottom: 1.75rem;
+}
 
 /*BOTTOM FOOTER*/
 
@@ -268,9 +299,24 @@ div.flex-container{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-    
 
 
+.btn-last{
+    padding: 7px;
+    margin-top: 10px;
+    color:#FFFFFF;
+    background-color: #8EA1E1;
+    border-radius: 40px;
+    height: fit-content;
+    width: fit-content;
+}
+
+hr{
+    margin: 0 7rem;
+    background-color: #8EA1E1;
+    height: 2px;
+    border: none;
+}
 
 /*debug*/
 
