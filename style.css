@@ -77,10 +77,10 @@ font-weight: 900;
 #site_header{
     width: 100%;
     height: min-content;
-    position: fixed;
-    align-items: center;
-    justify-content: space-around;
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 /*con position fixed ho creato sovrapposizione tra jumbotron ed header, quindi posso levare il bg color che avevo dato ad header per compensare la mancanza*/
