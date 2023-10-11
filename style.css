@@ -318,7 +318,14 @@ hr{
     border: none;
 }
 
-/*debug*/
+.display-block{
+    display: block;
+}
+
+img:not(.d-flex){
+    height: 15px;
+}
+/* #region debug*/ 
 
 
 .debug .jumbotron{
@@ -386,3 +393,5 @@ hr{
     background-color: black;
 
 }
+/* #endregion debug*/
+
