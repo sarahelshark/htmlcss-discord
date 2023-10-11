@@ -318,12 +318,14 @@ hr{
     border: none;
 }
 
-.display-block{
-    display: block;
-}
 
 img:not(.d-flex){
     height: 15px;
+}
+
+a[href^="#"]{
+    color: #F6F6F6;
+    padding: 0.75rem;
 }
 /* #region debug*/ 
 
