@@ -212,7 +212,22 @@ div.row1{
     width: 80%;
 }
 
+.row1 img.d-flex{
+    animation-name: slidein;
+    animation-duration: 5s;
+}
 
+@keyframes slidein {
+    from {
+      transform: translateX(-50%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+ 
 /*SECOND CONTAINER*/
 
 .row2{
@@ -229,6 +244,7 @@ div.row2{
     width: 100%;
     padding: 4rem 17rem;
 }
+
 
 /*THIRD CONTAINER*/
 
