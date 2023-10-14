@@ -195,11 +195,22 @@ li{
     box-shadow: inset 0 0 10px 3px rgba(0,0,0,0.3);
 }
 
+.jumbotron button:active{
+    color: red;
+    box-shadow: inset 0 0 20px 3px rgba(255, 0, 0, 0.849);
+}
 .flex-container button:last-child{
     background-color: #23272A;
     color:#FFFFFF;
     box-shadow: inset 0 0 10px 3px rgba(196, 191, 191, 0.849);
+    
 }
+.flex-container button:last-child:active{
+    color:red;
+    box-shadow: inset 0 0 20px 3px rgba(255, 0, 0, 0.849);
+}
+
+
 /* FIRST CONTAINER*/
 
 .row1{
