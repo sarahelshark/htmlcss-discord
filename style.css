@@ -217,6 +217,7 @@ div.row1{
     animation-duration: 5s;
 }
 
+
 @keyframes slidein {
     from {
       transform: translateX(-50%);
@@ -227,7 +228,30 @@ div.row1{
     }
   }
 
- 
+
+span.chat {
+    transition: 3s;
+    padding: 2rem;
+}  
+span.chat:hover {
+    border: 10px inset #292841;
+}
+
+span.chiamata {
+    transition: 3s;
+    padding: 2rem;
+}  
+span.chiamata:hover {
+    border: 10px inset #292841;
+}
+
+span.fandom {
+    transition: 3s;
+    padding: 2rem;
+}  
+span.fandom:hover {
+    border: 10px inset #292841;
+}
 /*SECOND CONTAINER*/
 
 .row2{
