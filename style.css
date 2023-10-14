@@ -80,8 +80,10 @@ font-weight: 900;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 6;
 }
+
+
 
 /*con position fixed ho creato sovrapposizione tra jumbotron ed header, quindi posso levare il bg color che avevo dato ad header per compensare la mancanza*/
 .logo {
@@ -117,6 +119,15 @@ li{
     height: fit-content;
     width: fit-content;
 }
+.btn-login:active{
+    background-color:#00fa2a;
+    border-radius: 50px;
+}
+.btn-last:active{
+    background-color:#00fa2a;
+    border-radius: 50px;
+}
+
 
 
 .align-items-center{
