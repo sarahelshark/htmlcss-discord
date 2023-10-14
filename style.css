@@ -245,6 +245,22 @@ div.row2{
     padding: 4rem 17rem;
 }
 
+[class$="erse"]{
+    animation-name: slidereverse;
+    animation-duration: 5s;
+
+}
+@keyframes slidereverse {
+    from {
+      transform: translateX(110%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+ 
 
 /*THIRD CONTAINER*/
 
