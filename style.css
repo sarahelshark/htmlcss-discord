@@ -95,6 +95,24 @@ font-weight: 900;
 
     padding-top: 50px;
 }
+
+.logo{
+    animation-name: entrance;
+    animation-duration: 5s;
+}
+
+
+@keyframes entrance {
+    from {
+      transform: translateX(-100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+    
+  }
+
 /*
 header{
     background-color: #255EE9;
@@ -327,10 +345,18 @@ h4{
 
 .column{
     flex-direction: column;
-    }
 
+}
 
-/*FOOTER*/
+#l-button:hover{
+    filter: blur(0px);
+}
+
+#l-button{
+    filter: blur(10px);
+    transition: .5s;
+}
+    /*FOOTER*/
 .top-footer{
     display: flex;
     width: 80%;
